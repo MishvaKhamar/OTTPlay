@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Loginform{
+            width: 30vw;
+            height: 55vh ;
+            height: max-content;
+            padding: 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            margin: auto;
+            margin-top: 150px;
+        }
+        input{
+            padding: 5px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin: 7.5px;
+            font-size: 17px;
+            margin-bottom: 0;
+
+        }
+        .myprofile{
+            height: 60px;
+            width: 60px;
+            align-items: center;
+            margin-left:42%;
+            text-align: center;
+            font-size: 40px;
+        }
+        label{
+             font-size: 20px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        hr{
+            color:rgb(112, 38, 237);
+        }
+        .btn{
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            background-color:rgb(112, 38, 237);
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <form action="mainpage.html" method="get" class="Loginform">
+         <div>
+            <img src="myprofile.svg" alt="" class="myprofile">
+         </div>
+         <div style="font-size: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight:500; text-align: center;">
+            Login
+         </div>
+         <div>
+            <label for="">Email id</label>
+            <br>
+            <input type="text" placeholder="Enter Email id">
+            <hr>
+         </div>
+         <div>
+            <label for="">Password</label>
+            <br>
+            <input type="password" placeholder="Enter password">
+            <hr>
+         </div>
+         <div>
+            <button type="submit" class="btn">Login</button>
+         </div>
+    </form>
+</body>
+</html>
+       
